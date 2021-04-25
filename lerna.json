@@ -2,5 +2,8 @@
   "packages": [
     "packages/*"
   ],
-  "version": "0.0.1"
+  "publish": {
+    "registry": "http://localhost:4873"
+  },
+  "version": "independent"
 }
