@@ -1,0 +1,26 @@
+{
+  "name": "@example/foobar",
+  "version": "1.0.0",
+  "main": "dist/index",
+  "types": "dist/index",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "rimraf -rf ./dist",
+    "compile": "tsc -p tsconfig.build.json",
+    "prepublishOnly": "npm run build",
+    "test": "npm run build"
+  },
+  "dependencies": {
+    "@example/foo": "*",
+    "@example/bar": "*"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "eslint": "^7.24.0",
+    "rimraf": "~3.0.2",
+    "typescript": "^4.2.4"
+  }
+}
