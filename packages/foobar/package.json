@@ -1,6 +1,6 @@
 {
   "name": "@example/foobar",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/index",
   "types": "dist/index",
   "files": [
@@ -14,8 +14,8 @@
     "test": "npm run build"
   },
   "dependencies": {
-    "@example/bar": "^0.0.1",
-    "@example/foo": "^0.0.1"
+    "@example/bar": "^0.0.2",
+    "@example/foo": "^0.0.2"
   },
   "devDependencies": {
     "eslint": "^7.24.0",
