@@ -1,6 +1,6 @@
 
 export function log () {
-  console.log('I am a dependency bar');
+  console.log('I am Bar');
 }
 
 
